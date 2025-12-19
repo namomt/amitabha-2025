@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>法會悅眾職事表</title>
+    <title>彌陀誕法會悅眾職事表</title>
     <style>
         :root {
             --bg-color: #222;       /* 深色背景 */
@@ -98,6 +98,7 @@
             font-size: 0.9em;
             margin-top: 6px;
             padding-left: 0; /* 靠左對齊 */
+            white-space: pre-line; /* 允許換行符號 */
         }
 
         /* 區塊群組樣式 (如禮品組) */
@@ -110,8 +111,13 @@
 
         .group-item {
             margin-bottom: 12px;
+            border-bottom: 1px dashed #444;
+            padding-bottom: 8px;
         }
-        .group-item:last-child { margin-bottom: 0; }
+        .group-item:last-child { 
+            margin-bottom: 0; 
+            border-bottom: none;
+        }
 
         /* 結緣品清單樣式 */
         .list-box {
@@ -139,10 +145,11 @@
 
 <div class="container">
 
-    <h2>上午悅眾</h2>
+    <h2>上午執事</h2>
 
     <div class="item">
         <div class="main-line"><span class="role">維那：</span>淨易</div>
+        <div class="note-line">08:30 悅眾就位 08:45 悅眾進壇</div>
     </div>
     <div class="item">
         <div class="main-line"><span class="role">木魚：</span>淨諦</div>
@@ -158,23 +165,24 @@
     </div>
     <div class="item">
         <div class="main-line"><span class="role">司儀：</span>淨耕</div>
+        <div class="note-line">11:00 宣導下午事項</div>
     </div>
     <div class="item">
         <div class="main-line"><span class="role">引禮：</span>(西)行淨、(東)淨慈</div>
     </div>
     <div class="item">
-        <div class="main-line"><span class="role">迎賓：</span>賴寶淨、壽淨、鄭寶淨、黃淙賢</div>
+        <div class="main-line"><span class="role">迎賓：</span>賴寶淨、樂淨、壽淨、鄭寶淨</div>
+        <div class="note-line">09:00 回座</div>
     </div>
     <div class="item">
         <div class="main-line"><span class="role">知賓：</span>善淨、信淨</div>
-        <div class="note-line">(帶蓮友入座)</div>
     </div>
     <div class="item">
         <div class="main-line"><span class="role">齋主：</span>(東)淨誠、(西)奉淨</div>
     </div>
     <div class="item">
         <div class="main-line"><span class="role">護法：</span>張運登、羅世祥</div>
-        <div class="note-line">(舉牌-請關手機 保持安靜)</div>
+        <div class="note-line">08:45 舉牌、08:55 舉牌</div>
     </div>
     <div class="item">
         <div class="main-line"><span class="role">侍者：</span>文淨</div>
@@ -187,34 +195,43 @@
     </div>
 
     <div class="group-box">
-        <div class="group-item"><span class="role">用餐引導：</span>悅淨、淨願、陳美、迴淨</div>
-        <div class="group-item"><span class="role">禮品組：</span>如淨、淨元、林登興、陳秀花</div>
         <div class="group-item">
-            <span class="role">環保機動組：</span>如淨、淨元、林登興、陳秀花、品淨、賴寶淨、壽淨、鄭寶淨、黃淙賢
+            <span class="role">用餐引導：</span>悅淨、淨願、陳美、陳秀花
+            <div class="note-line">提前準備餐具、10:40 就定位</div>
+        </div>
+        <div class="group-item">
+            <span class="role">禮品組(一)：</span>淨元、張運登、羅世祥、林登興
+            <div class="note-line">10:40 就定位</div>
+        </div>
+        <div class="group-item">
+            <span class="role">禮品組(二)：</span>賴寶淨、迴淨
+            <div class="note-line">播《彌陀牽著我的手》</div>
+        </div>
+        <div class="group-item">
+            <span class="role">環保機動：</span>淨元、陳秀花、賴寶淨、林登興、鄭寶淨、如淨、壽淨、品淨
+            <div class="note-line">(12:20) 整理場地</div>
         </div>
     </div>
 
     <div class="list-box">
-        <span class="list-title">📢 注意事項與結緣品</span>
-        <div class="item" style="border:none; padding:0; margin-bottom:10px;">
-            法師回向完發結緣品-播《彌陀牽著我的手》
-        </div>
+        <span class="list-title">🎁 上午結緣品</span>
         <div class="item" style="border:none; padding:0;">
-            <span class="role">大眾結緣：</span>平安米、壽桃、麵線、彌陀燈
+            壽桃、麵線、彌陀燈、彌陀水
         </div>
     </div>
 
 
-    <h2>下午悅眾</h2>
+    <h2>下午執事</h2>
 
     <div class="item">
         <div class="main-line"><span class="role">維那：</span>淨耕</div>
+        <div class="note-line">14:10 悅眾進壇</div>
     </div>
     <div class="item">
         <div class="main-line"><span class="role">木魚：</span>淨元</div>
     </div>
     <div class="item">
-        <div class="main-line"><span class="role">鐺子：</span>信淨</div>
+        <div class="main-line"><span class="role">鐺子：</span>和淨</div>
     </div>
     <div class="item">
         <div class="main-line"><span class="role">鈳子：</span>淨光</div>
@@ -226,42 +243,49 @@
         <div class="main-line"><span class="role">引禮：</span>(西)文淨、(東)淨慈</div>
     </div>
     <div class="item">
-        <div class="main-line"><span class="role">迎賓：</span>賴寶淨、壽淨、鄭寶淨、黃淙賢</div>
-        <div class="note-line">(面帶笑容、協助下車蓮友)</div>
-    </div>
-    <div class="item">
-        <div class="main-line"><span class="role">知賓：</span>善淨、淨易、淨寶</div>
-        <div class="note-line">(發中掛、帶位)</div>
-    </div>
-    <div class="item">
-        <div class="main-line"><span class="role">齋主：</span>(東)行淨、(西)和淨</div>
+        <div class="main-line"><span class="role">齋主：</span>(西)淨誠、(東)行淨</div>
     </div>
     <div class="item">
         <div class="main-line"><span class="role">護法：</span>張運登、羅世祥</div>
-        <div class="note-line">(舉牌-請關手機、保持安靜)</div>
+        <div class="note-line">(12:50) (14:10) 舉牌</div>
     </div>
     <div class="item">
-        <div class="main-line"><span class="role">侍者：</span>奉淨</div>
+        <div class="main-line"><span class="role">迎賓：</span>賴寶淨、樂淨、壽淨、鄭寶淨</div>
+        <div class="note-line">(12:50) (14:10)</div>
+    </div>
+    <div class="item">
+        <div class="main-line"><span class="role">場地調整：</span>法王座、拜墊</div>
+        <div class="note-line">(14:00休息時間)</div>
+    </div>
+    <div class="item">
+        <div class="main-line"><span class="role">侍者：</span>淨寶、奉淨</div>
+        <div class="note-line">淨寶 (12:50)<br>奉淨 (14:10)</div>
+    </div>
+    <div class="item">
+        <div class="main-line"><span class="role">知賓：</span>淨易、淨寶、善淨</div>
+        <div class="note-line">①12:30 帶位發中掛<br>②三寶歌完拜墊移至兩側<br>③發完皈依結緣品復位</div>
     </div>
     <div class="item">
         <div class="main-line"><span class="role">攝影：</span>淨諦、宗光</div>
     </div>
     <div class="item">
-        <div class="main-line"><span class="role">櫃台：</span>名淨</div>
+        <div class="main-line"><span class="role">櫃台：</span>名淨、信淨</div>
     </div>
 
     <div class="group-box">
-        <div class="group-item"><span class="role">禮品組：</span>善淨、淨易、淨寶、賴寶淨、壽淨、鄭寶淨、黃淙賢</div>
-        <div class="group-item"><span class="role">皈依結緣組：</span>奉淨、淨寶</div>
+        <div class="group-item">
+            <span class="role">皈依結緣/禮品組：</span>奉淨、張運登、賴寶淨、羅世祥、樂淨、善淨
+            <div class="note-line">三寶歌就定位、三寶歌準備完畢</div>
+        </div>
     </div>
 
     <div class="list-box">
-        <span class="list-title">🎁 結緣品</span>
+        <span class="list-title">🎁 下午結緣品</span>
         <div class="item" style="border:none; padding:0; margin-bottom:10px;">
-            <span class="role">皈依：</span>阿彌陀佛是怎樣一尊佛、略談三皈依、佛牌、佛珠
+            <span class="role">皈依結緣：</span>隨身書、佛牌、佛珠、佛卡、名片
         </div>
         <div class="item" style="border:none; padding:0;">
-            <span class="role">大眾：</span>手錶
+            <span class="role">下午結緣：</span>手錶
         </div>
     </div>
 
